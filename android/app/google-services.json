@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "83826287742",
+    "project_id": "cluster-da368",
+    "storage_bucket": "cluster-da368.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83826287742:android:9aa5bd8e1f185809ffe42f",
+        "android_client_info": {
+          "package_name": "com.example.shakti_contact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyC85U08RU3kpLFRxMx5sH-18MV81y964"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83826287742:android:b8eedbd6f525c5a3ffe42f",
+        "android_client_info": {
+          "package_name": "com.googlecluster.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyC85U08RU3kpLFRxMx5sH-18MV81y964"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

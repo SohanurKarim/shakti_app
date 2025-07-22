@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shakti_contact/views/daily_status/PerformanceChart.dart';
 import 'package:shakti_contact/views/erp_page/erp_site.dart';
+import 'package:shakti_contact/views/maps/maps.dart';
 import 'package:shakti_contact/views/small_ui/contacts_screen.dart' show ContactsScreen;
 
 class HomeScreen extends StatefulWidget {
@@ -41,15 +43,23 @@ class _HomeScreenState extends State<HomeScreen> {
         },
       ),
       GridItem(
-        icon: Icons.play_arrow,
-        title: 'Play',
-        onTap: () => print('Play'),
+        icon: Icons.add_chart,
+        title: 'Work Status',
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => PerformanceDashboard(username: 'John Doe'),),
+          );
+        },
       ),
       GridItem(
-        icon: Icons.settings,
-        title: 'Settings',
+        icon: Icons.location_on_outlined,
+        title: 'Maps',
         onTap: () {
-          // Navigation logic
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Maps(),),
+          );
         },
       ),
       GridItem(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shakti_contact/bottom_bar.dart';
-import 'package:shakti_contact/views/home_screen.dart';
 class LoginScreen extends StatefulWidget {
   final VoidCallback onToggleTheme;
   final bool isDarkMode;
