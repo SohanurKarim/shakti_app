@@ -232,14 +232,14 @@ class MapsState extends State<Maps> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Mymensingh Region(3506)',
-          style: TextStyle(color: Colors.white),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.blueGrey,
-      ),
+      // appBar: AppBar(
+      //   title: Text(
+      //     'Mymensingh Region(3506)',
+      //     style: TextStyle(color: Colors.white),
+      //   ),
+      //   centerTitle: true,
+      //   backgroundColor: Colors.blueGrey,
+      // ),
       body:
       (_locationData != null && _manager != null)
           ? GoogleMap(

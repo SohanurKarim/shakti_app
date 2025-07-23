@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Align(
                 alignment: Alignment.topLeft,
                 child: Text(
-                  'v4.0.6_Live',
+                  'v0.0.1_Live',
                   style: TextStyle(color: Colors.greenAccent, fontSize: 12),
                 ),
               ),
@@ -125,9 +125,9 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               Spacer(),
               Align(
-                alignment: Alignment.bottomLeft,
+                alignment: Alignment.bottomRight,
                 child: Text(
-                  'v4.0.6_Live',
+                  'v0.0.1_Live',
                   style: TextStyle(color: Colors.greenAccent, fontSize: 12),
                 ),
               ),

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shakti_contact/views/daily_status/PerformanceChart.dart';
 import 'package:shakti_contact/views/erp_page/erp_site.dart';
-import 'package:shakti_contact/views/maps/maps.dart';
+import 'package:shakti_contact/views/maps/map_tab.dart';
+import 'package:shakti_contact/views/maps/use_location_path.dart';
 import 'package:shakti_contact/views/small_ui/contacts_screen.dart' show ContactsScreen;
 
 class HomeScreen extends StatefulWidget {
@@ -48,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => PerformanceDashboard(username: 'John Doe'),),
+            MaterialPageRoute(builder: (context) => PerformanceDashboard(username: 'Sohanur'),),
           );
         },
       ),
@@ -58,14 +59,19 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => Maps(),),
+            MaterialPageRoute(builder: (context) => MapsTabbedView()),
           );
         },
       ),
       GridItem(
-        icon: Icons.person,
-        title: 'Profile',
-        onTap: () => print('Profile'),
+        icon: Icons.location_on_outlined,
+        title: 'Location Test',
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => MapWithDirectionsPage(),),
+          );
+        },
       ),
       GridItem(
         icon: Icons.info,
@@ -184,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         title: Row(
           children: [
-            Text('John Doe', style: TextStyle(fontSize: 16)),
+            Text('Sohanur', style: TextStyle(fontSize: 16)),
             SizedBox(width: 8),
           ],
         ),

@@ -110,6 +110,22 @@ class _ContactDetailsPageState extends State<ContactDetailsPage> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
+                widget.contact.post,
+                style: TextStyle(fontSize: 14, color: Colors.grey[700]),
+              ),
+            ),
+            SizedBox(height: 10),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                widget.contact.location,
+                style: TextStyle(fontSize: 14, color: Colors.grey[700]),
+              ),
+            ),
+            SizedBox(height: 10),
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
                 widget.contact.description,
                 style: TextStyle(fontSize: 14, color: Colors.grey[700]),
               ),

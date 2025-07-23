@@ -29,7 +29,7 @@ class EditProfileScreen extends StatelessWidget {
                   UserInfoEditField(
                     text: "Name",
                     child: TextFormField(
-                      initialValue: "Annette Black",
+                      initialValue: "Sohanur Karim",
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: const Color(0xFF00BF6D).withOpacity(0.05),
@@ -45,7 +45,7 @@ class EditProfileScreen extends StatelessWidget {
                   UserInfoEditField(
                     text: "Email",
                     child: TextFormField(
-                      initialValue: "annette@gmail.com",
+                      initialValue: "mskarim@shakti.org.bd",
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: const Color(0xFF00BF6D).withOpacity(0.05),
@@ -61,7 +61,7 @@ class EditProfileScreen extends StatelessWidget {
                   UserInfoEditField(
                     text: "Phone",
                     child: TextFormField(
-                      initialValue: "(316) 555-0116",
+                      initialValue: "01847099613",
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: const Color(0xFF00BF6D).withOpacity(0.05),
@@ -77,7 +77,7 @@ class EditProfileScreen extends StatelessWidget {
                   UserInfoEditField(
                     text: "Address",
                     child: TextFormField(
-                      initialValue: "New York, NVC",
+                      initialValue: "Mymensingh, Bangladesh",
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: const Color(0xFF00BF6D).withOpacity(0.05),
@@ -94,7 +94,7 @@ class EditProfileScreen extends StatelessWidget {
                     text: "Old Password",
                     child: TextFormField(
                       obscureText: true,
-                      initialValue: "demopass",
+                      initialValue: "12345678",
                       decoration: InputDecoration(
                         suffixIcon: const Icon(
                           Icons.visibility_off,

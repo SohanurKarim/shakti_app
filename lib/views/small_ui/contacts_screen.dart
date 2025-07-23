@@ -19,22 +19,36 @@ class _ContactsScreenState extends State<ContactsScreen> {
     _searchController = TextEditingController();
     allContacts = [
       Contact(
-        name: 'John Doe',
-        email: 'john.doe@example.com',
+        name: 'Mehdi Hasan',
+        email: 'mehdi@example.com',
         phone: '1234567890',
-        description: 'John is a software engineer with 5 years of Flutter experience.',
+        post: 'ICT support Engineer',
+        location: 'Bogura',
+        description: 'Mehdi is a software engineer with 5 years of Flutter experience. Mehdi is a software engineer with 5 years of Flutter experience.Mehdi is a software engineer with 5 years of Flutter experience.Mehdi is a software engineer with 5 years of Flutter experience.Mehdi is a software engineer with 5 years of Flutter experience.',
       ),
       Contact(
-        name: 'Jane Smith',
-        email: 'jane.smith@example.com',
+        name: 'Rokey Sheik',
+        email: 'roky@example.com',
         phone: '2345678901',
-        description: 'Jane is a UI/UX designer with a passion for user-centered design.',
+        post: 'ICT support Engineer',
+        location: 'Gazipur',
+        description: 'Roky is a UI/UX designer with a passion for user-centered design. Roky is a UI/UX designer with a passion for user-centered design.Roky is a UI/UX designer with a passion for user-centered design.Roky is a UI/UX designer with a passion for user-centered design.Roky is a UI/UX designer with a passion for user-centered design.',
       ),
       Contact(
-        name: 'Alex Johnson',
-        email: 'alex.j@example.com',
+        name: 'Sohel Rana',
+        email: 'sohel@example.com',
         phone: '3456789012',
-        description: 'Alex is a backend developer specializing in Node.js and APIs.',
+        post: 'ICT support Engineer',
+        location: 'Rangpur',
+        description: 'Sohel is a backend developer specializing in Node.js and APIs. Sohel is a backend developer specializing in Node.js and APIs.',
+      ),
+      Contact(
+        name: 'Shamim Hossain',
+        email: 'Shamim@example.com',
+        phone: '3456789012',
+        post: 'ICT support Engineer',
+        location: 'Sirajgonj',
+        description: 'Shamim is a backend developer specializing in Node.js and APIs. Shamim is a backend developer specializing in Node.js and APIs.Shamim is a backend developer specializing in Node.js and APIs.Shamim is a backend developer specializing in Node.js and APIs.',
       ),
     ];
     filtered = List.from(allContacts);
